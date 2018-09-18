@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "less": "lessc src/index.less dist/index.css",
+    "uglifyjs": "mkdir -p dist && uglifyjs src/index.js -c -o dist/index.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.0.1",
+    "uglify-js": "^3.3.21"
+  }
+}
